@@ -12,6 +12,7 @@ header:
   overlay_image: https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/github_logo.png
   overlay_filter: 0.5
 published: true
+author_profile: true
 ---
 
 ![git-bash](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_hpg/git_bash.png?raw=true)
