@@ -1,7 +1,7 @@
 ---
 title: "Github Blog 만들기 ( 리눅스/ 윈도우 git-bash )"
 category:
-  - start
+  - git
 tag:
   - github
   - git
