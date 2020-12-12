@@ -14,7 +14,7 @@ header:
 published: true
 ---
 
-![Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled.png](Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled.png)
+![git-bash](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_bash.png)
 
 - GIT-BASH를 이용하여 설치를 진행하였습니다.
 
@@ -36,7 +36,7 @@ git clone https://github.com/mmistakes/minimal-mistakes .  # 쩜 중요
 
 - `계정명.github.io` 라는 repository 만들기
 
-![Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled%201.png](Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled%201.png)
+![git-io](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_io.png)
 
 - git-clone 를 했던 master-directory에 들어가서 `보기-숨김파일 보기`로 설정을 변경한 뒤,  `.git` 폴더를 삭제해 준다.
 - 리눅스의 경우 다음 명령어를 실행한다.
@@ -96,7 +96,7 @@ git push origin master
 
 - `<username>.github.io` 로 들어가보자.
 
-![https://www.notion.so/lvstar/Github-Blog-git-bash-52aebdc52bf744a9a202b4d384a473f3#11465d29d27345cc8aea2c0146913ba8](github_image)
+![fst-page](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/fst_page.png)
 
 - 다음과 같은 화면을 만날 수 있다.
 
@@ -120,7 +120,7 @@ git push origin master
 - 블로그의 기본 틀을 잡아주려면 `_config.yml` 을 설정해주어야 한다.
 - 각 요소가 무엇을 의미하는지는 보면 아실테니 생략한다.
 
-![Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled%203.png](Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled%203.png)
+![cfg-img](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/cfg_img.png)
 
 # 블로그 설정 마친 뒤 다시 commit
 
@@ -132,6 +132,7 @@ git push origin master
 git commit -m 'first blog commit'
 git push origin master
 ```
+
 
 ## **Github 블로그**가 익숙해질 때 쯤, 블로그 작성하기로 돌아오겠습니다.
 
