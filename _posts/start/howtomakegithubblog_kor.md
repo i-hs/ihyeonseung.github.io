@@ -1,0 +1,138 @@
+---
+title: "Github Blog 만들기 ( 리눅스/ 윈도우 git-bash )"
+category:
+  - start
+tag:
+  - github
+  - git
+  - blog
+  - github.io
+use_math: true
+header:
+  overlay_image: https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/github_logo.png
+  overlay_filter: 0.5
+published: true
+---
+
+![Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled.png](Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled.png)
+
+- GIT-BASH를 이용하여 설치를 진행하였습니다.
+
+# GIT - Clone 하기
+
+---
+
+- 입문자용 깃허브 블로그 테마인 `minimal-mistakes`를 이용할 것이다.
+
+```python
+mkdir blog_blog
+cd blog_blog  # 블로그 파일을 저장할 폴더
+git clone https://github.com/mmistakes/minimal-mistakes .  # 쩜 중요
+```
+
+# Repository 만들기
+
+---
+
+- `계정명.github.io` 라는 repository 만들기
+
+![Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled%201.png](Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled%201.png)
+
+- git-clone 를 했던 master-directory에 들어가서 `보기-숨김파일 보기`로 설정을 변경한 뒤,  `.git` 폴더를 삭제해 준다.
+- 리눅스의 경우 다음 명령어를 실행한다.
+
+```python
+sudo rm -r .git
+```
+
+- `.git` 폴더를 지웠으므로 다시 `git` 에 연결하기 위해 다음 명령어를 실행한다.
+
+```python
+git init
+```
+
+- 본인의 블로그와 현재 `git-master` 폴더를 연결하기 위해 다음 명령어를 실행한다.
+
+```python
+git remote add origin https://github.com/ihyeonseung/ihyeonseung.github.io
+```
+
+- 연결여부를 확인하기 위해 다음 명령어를 실행할 수 있다.
+
+```python
+git remote -v 
+
+origin  https://github.com/ihyeonseung/ihyeonseung.github.io (fetch)
+origin  https://github.com/ihyeonseung/ihyeonseung.github.io (push)
+```
+
+- 현 디렉토리의 내용을 `github`에 반영한다.
+
+```python
+git add .
+```
+
+- 변경내용을 `commit` 한다.
+
+```python
+git commit -m 'blog-start'
+```
+
+- `commit`한 내용을 repository에 반영한다.
+
+```python
+git push origin master
+```
+
+### fatal: protocol '??https' is not supported 에러가 난 경우
+
+---
+
+- github 주소를 복사 붙여넣기 하면서 `https` 앞에 잘못된 값이 전달된 경우이므로, `.git`파일을 삭제한 뒤, 주소를 직접 타이핑하며 위 과정을 다시 진행한다.
+
+# 이제 블로그에 접속해보자
+
+---
+
+- `<username>.github.io` 로 들어가보자.
+
+![https://www.notion.so/lvstar/Github-Blog-git-bash-52aebdc52bf744a9a202b4d384a473f3#11465d29d27345cc8aea2c0146913ba8](github_image)
+
+- 다음과 같은 화면을 만날 수 있다.
+
+# 블로그의 기본 파일들
+
+---
+
+- _config.yml : 설정 파일
+- _posts : 블로그 포스팅
+- _pages : 개별 페이지
+- _includes : 글에 포함되는 개별요소
+- _layouts : 글의 양식
+- assets : image, css 등
+- index.html : 표시
+- 없는 요소들은 local 에서 폴더를 생성해주면 된다.
+
+# _ Config.yml 설정하기
+
+---
+
+- 블로그의 기본 틀을 잡아주려면 `_config.yml` 을 설정해주어야 한다.
+- 각 요소가 무엇을 의미하는지는 보면 아실테니 생략한다.
+
+![Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled%203.png](Github%20Blog%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20(%20%E1%84%85%E1%85%B5%E1%84%82%E1%85%AE%E1%86%A8%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%B1%E1%86%AB%E1%84%83%E1%85%A9%E1%84%8B%E1%85%AE%20git-bash%20)%2011465d29d27345cc8aea2c0146913ba8/Untitled%203.png)
+
+# 블로그 설정 마친 뒤 다시 commit
+
+---
+
+- 이것저것 설정을 마치고, `_post`에서 글을 작성했다면 다시 git 에 `commit`을 한 뒤, `push` 를 해준다.
+
+```python
+git commit -m 'first blog commit'
+git push origin master
+```
+
+## **Github 블로그**가 익숙해질 때 쯤, 블로그 작성하기로 돌아오겠습니다.
+
+## - 감사합니다 -
