@@ -14,7 +14,7 @@ header:
 published: true
 ---
 
-![git-bash](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_hpg/git_bash.png)
+![git-bash](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_hpg/git_bash.png?raw=true)
 
 - GIT-BASH를 이용하여 설치를 진행하였습니다.
 
@@ -36,7 +36,7 @@ git clone https://github.com/mmistakes/minimal-mistakes .  # 쩜 중요
 
 - `계정명.github.io` 라는 repository 만들기
 
-![git-io](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_hpg/git_io.png)
+![git-io](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_hpg/git_io.png?raw=true)
 
 - git-clone 를 했던 master-directory에 들어가서 `보기-숨김파일 보기`로 설정을 변경한 뒤,  `.git` 폴더를 삭제해 준다.
 - 리눅스의 경우 다음 명령어를 실행한다.
@@ -96,7 +96,7 @@ git push origin master
 
 - `<username>.github.io` 로 들어가보자.
 
-![fst-page](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_hpg/fst_page.png)
+![fst-page](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_hpg/fst_page.png?raw=true)
 
 - 다음과 같은 화면을 만날 수 있다.
 
@@ -120,7 +120,7 @@ git push origin master
 - 블로그의 기본 틀을 잡아주려면 `_config.yml` 을 설정해주어야 한다.
 - 각 요소가 무엇을 의미하는지는 보면 아실테니 생략한다.
 
-![cfg-img](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_hpg/cfg_img.png)
+![cfg-img](https://github.com/ihyeonseung/ihyeonseung.github.io/blob/master/assets/img/start/git_hpg/cfg_img.png?raw=true)
 
 # 블로그 설정 마친 뒤 다시 commit
 
