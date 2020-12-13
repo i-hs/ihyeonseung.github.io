@@ -123,6 +123,8 @@ git push origin master
 - index.html : 표시
 &nbsp;
 - 없는 요소들은 `local` 에서 폴더를 생성해주면 된다.
+
+&nbsp;
 &nbsp;
 # _ Config.yml 설정하기
 
